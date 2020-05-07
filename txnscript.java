@@ -19,9 +19,8 @@ import java.util.stream.Stream;
 
 public class txnscript
 {
-
 	// coller ici les paramètres issu de Heroku
-	private static String jdbcHerokuMachine = "postgres" ;
+	private static String jdbcHerokuMachine = "ec2-54-75-229-28.eu-west-1.compute.amazonaws.com" ;
 	private static String jdbcHerokuDatabase = "d7m8ccepfnsec7" ;
 	private static String jdbcHerokuUser = "zshsuoavwdcfgi" ;
 	private static String jdbcHerokuPass = "67a049e16de4dc0be74ffa3de3cf666f73f4f8e5fe4f85a1dcce0f2003e37a01" ;
