@@ -322,7 +322,7 @@ public class txnscript
 		{
 				PreparedStatement pstmt = cnx.prepareStatement(sql) ;
 				pstmt.setString(2, nom);
-				pstmt.setDouble(1, codePostal);
+				pstmt.setInt(1, codePostal);
 				pstmt.executeUpdate();
 		}
 		catch (SQLException e)
