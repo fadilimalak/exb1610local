@@ -312,7 +312,7 @@ public class txnscript
 
 	
 	
-    public static String updateVille ( String nom, Integer codePostal)
+    public static String updateVille ( Integer id, String nom, Integer codePostal)
     {
         String result = "" ;
 		
